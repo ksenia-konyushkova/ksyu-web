@@ -1,0 +1,130 @@
+/* http://stackoverflow.com/a/19695851 solution 3 */
+.row-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Small stuff. */
+body {
+  font-size: medium;
+}
+
+div#header-science {
+  background-color: #C8023A;
+  text-align: right;
+}
+
+div#header-photo {
+  background-color: #21B5FF;
+  text-align: left;
+}
+
+div#header-science, div#header-photo {
+  color: #FFFFFF;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: large;
+  font-weight: bold;
+}
+
+div#camera-roll {
+  background-color: #4E4740;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+/* Navbar */
+.navbar-ksyu {
+  margin-top: 20px;
+}
+.navbar-ksyu .navbar-brand {
+  color: #000000;
+  font-family: 'Voces', cursive;
+  font-size: 200%;
+}
+.navbar-ksyu .navbar-nav > li > a:hover,
+.navbar-ksyu .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.navbar-ksyu .navbar-nav > .active > a,
+.navbar-ksyu .navbar-nav > .active > a:hover,
+.navbar-ksyu .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.navbar-ksyu .navbar-nav > .disabled > a,
+.navbar-ksyu .navbar-nav > .disabled > a:hover,
+.navbar-ksyu .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-ksyu .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar-ksyu .navbar-toggle:hover,
+.navbar-ksyu .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-ksyu .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-ksyu .navbar-collapse,
+.navbar-ksyu .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-ksyu .navbar-nav > .open > a,
+.navbar-ksyu .navbar-nav > .open > a:hover,
+.navbar-ksyu .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-ksyu .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-ksyu .navbar-link {
+  color: #777;
+}
+.navbar-ksyu .navbar-link:hover {
+  color: #333;
+}
+.navbar-ksyu .btn-link {
+  color: #777;
+}
+.navbar-ksyu .btn-link:hover,
+.navbar-ksyu .btn-link:focus {
+  color: #333;
+}
+.navbar-ksyu .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-ksyu .btn-link:hover,
+.navbar-ksyu .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-ksyu .btn-link:focus {
+  color: #ccc;
+}
