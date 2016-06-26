@@ -13,46 +13,89 @@
 
 /* Small stuff. */
 body {
+  font-family: 'Lato', sans-serif;
   font-size: medium;
 }
 
-div#header-science {
-  background-color: #C8023A;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #F9DEC9;
+}
+
+div.header-science {
+  background-color: #881F5C;
   text-align: right;
 }
+div.header-science:hover { background-color: #9C2369; }
 
-div#header-photo {
-  background-color: #21B5FF;
+div.header-photo {
+  background-color: #1182A3;
   text-align: left;
 }
+div.header-photo:hover { background-color: #1392B8; }
 
-div#header-science, div#header-photo {
+div.header {
   color: #FFFFFF;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   font-size: large;
-  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  /*font-weight: bold;*/
+}
+
+.header > a, .header > a:hover, header > a:focus {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 div#camera-roll {
-  background-color: #4E4740;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  background-color: #3A405A;
+  /*3A405A 
+   * AEC5EB
+   * F9DEC9
+  */
+  margin-top: 1.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+footer {
+  margin: 1.5em 0;
+  color: #999;
+}
+
+.navbar-ksyu .navbar-nav > li > a {
+  color: #000;
+}
+
+div.header-row {
+  margin-bottom: 1.5em;
 }
 
 
 /* Navbar */
 .navbar-ksyu {
-  margin-top: 20px;
+  margin: 1.5em 0 0.75em 0;
 }
+.navbar-science, .navbar-photo {
+  border-radius: 0;
+  border-bottom: 5px solid;
+  padding-bottom: 0.75em;
+  margin-bottom: 1.5em;
+}
+.navbar-science { border-bottom-color: #881F5C; }
+.navbar-photo { border-bottom-color: #1182A3; }
 .navbar-ksyu .navbar-brand {
   color: #000000;
-  font-family: 'Voces', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   font-size: 200%;
 }
 .navbar-ksyu .navbar-nav > li > a:hover,
 .navbar-ksyu .navbar-nav > li > a:focus {
-  color: #333;
+  color: #666;
   background-color: transparent;
 }
 .navbar-ksyu .navbar-nav > .active > a,
