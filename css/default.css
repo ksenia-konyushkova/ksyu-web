@@ -1,16 +1,3 @@
-/* http://stackoverflow.com/a/19695851 solution 3 */
-.row-flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
-}
-.row-flex > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
-
 /* Small stuff. */
 body {
   font-family: 'Lato', sans-serif;
@@ -170,4 +157,14 @@ fieldset[disabled] .navbar-ksyu .btn-link:hover,
 .navbar-ksyu .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-ksyu .btn-link:focus {
   color: #ccc;
+}
+
+/* Fix things for phones */
+@media (max-width: 400px) {
+  .navbar-ksyu .navbar-brand {
+    font-size: 140%;
+  }
+  div.header {
+    font-size: medium;
+  }
 }
