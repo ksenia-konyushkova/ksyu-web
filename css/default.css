@@ -23,6 +23,21 @@ p a:hover, p a:focus {
   color: #666;
 }*/
 
+div.row-separated {
+  border-top: 1px solid #F9DEC9;
+  padding-top: 0.75em;
+}
+
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+div.row-separated h3 {
+  border: none;
+  margin: 0.25em 0;
+}
+
 .toptitle {
   margin-top: 0;
 }
