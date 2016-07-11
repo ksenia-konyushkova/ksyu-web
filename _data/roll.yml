@@ -1,3 +1,9 @@
-- https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-002.jpg
-- https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-007.jpg
-- https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-010.jpg
+- fullres   : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-002.jpg
+  thumbnail : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/web-mini-2.jpg
+  desc      : Description
+- fullres   : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-007.jpg
+  thumbnail : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/web-mini-7.jpg
+  desc      : Matterhorn
+- fullres   : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/myweb-010.jpg
+  thumbnail : https://s3-eu-west-1.amazonaws.com/lum-public/ksyu-web/web-mini-10.jpg
+  desc      : Torres del Paine
