@@ -88,6 +88,10 @@ div#camera-roll {
   padding-bottom: 0.75em;
 }
 
+div.photo {
+  margin: 0.75em 0;
+}
+
 footer {
   margin: 1.5em 0;
   color: #999;
